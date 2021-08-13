@@ -1,8 +1,8 @@
 const computerSelection = computerPlay();
 
 function computerPlay(result){
-  let ticktacktoe = ["Rock", "Paper","Scissors"];
-return result = ticktacktoe[Math.floor(Math.random()*ticktacktoe.length )];
+  let rockpaperscissors = ["Rock", "Paper","Scissors"];
+return result = rockpaperscissors[Math.floor(Math.random()*rockpaperscissors.length )];
 }
 
 let playerCounter = 0;
